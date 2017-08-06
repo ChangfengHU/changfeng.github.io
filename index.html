@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="https://changfenghu.github.io/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/changfeng.github.io/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/changfeng.github.io/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/changfeng.github.io/">Home</a>
+        
+          <a class="main-nav-link" href="/changfeng.github.io/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://changfenghu.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-article-title" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/changfeng.github.io/2017/08/06/article-title/" class="article-date">
+  <time datetime="2017-08-06T10:27:14.000Z" itemprop="datePublished">2017-08-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/changfeng.github.io/2017/08/06/article-title/">我的博客</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Ajax"><a href="#Ajax" class="headerlink" title="Ajax"></a>Ajax</h2><h3 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h3><h4 id="第一节-AJAX并不是一门新技术，而是多种技术的结合体"><a href="#第一节-AJAX并不是一门新技术，而是多种技术的结合体" class="headerlink" title="第一节 AJAX并不是一门新技术，而是多种技术的结合体"></a>第一节 AJAX并不是一门新技术，而是多种技术的结合体</h4><pre><code>1、一些有趣的事
+
+1. AJAX 不是新的编程语言，而是一种使用已有标准的新概念
+
+2. 2005年由美国人Jesse James Garrett推广，并取名。
+   神奇的是，这哥们并不是搞程序的，而是搞设计的，是交互设计大师、用户体验大师。甚至是个优秀建筑设计师。
+
+3. 在 2005 年，Google 通过其 Google Suggest 使 AJAX 变得流行起来。
+
+4. 在今天，很少有哪个网站不使用Ajax技术
+
+5. Ajax技术对智能手机支持非常好。
+
+6.  Ajax中字母x表示XML，实际上XML已经过时，现在的公司，几乎全都在使用JSON代替XML。
+    所以理论上讲，应该称呼为Ajaj，不过，呃，这个词儿，长得好难看。
+
+2、AJAX 是一个什么东西
+   在不刷新页面的情况下，
+   浏览器悄悄地、异步地向服务器发出HTTP请求。
+   服务器收到请求后，传回新的格式化数据回来（通常是JSON）。
+   浏览器解析JSON，通过DOM将新数据呈递显示，页面仅局部刷新。
+</code></pre><h4 id="第二节-服务器与客户端"><a href="#第二节-服务器与客户端" class="headerlink" title="第二节 服务器与客户端"></a>第二节 服务器与客户端</h4><pre><code>1. 服务器和客户端说白了，都是电脑
+
+2. 服务器：能够提供某种服务的机器（计算机）
+
+3. 客户端：具有向服务器索取服务能力的终端
+
+4. 服务器类型：
+   a、按服务类型可分为：文件服务器、数据库服务器、邮件服务器、Web 服务器等；
+   b、按操作系统可分为：Linux服务器、Windows服务器等
+   c、按应用软件可分为 Apache服务器、Nginx 服务器、IIS服务器、Tomcat服务器、Node服务器等
+
+5. 服务器软件
+   定义：使计算机具备提供某种服务能力的应用软件，称为服务器软件，
+   通过安装相应的服务软件，然后进行配置后就可以使计算具备了提供某种服务的能力。
+
+   常见的服务器软件：
+   a、文件服务器：Server-U、FileZilla、VsFTP等
+   b、数据库服务器：Oracle、MySQL、PostgreSQL、MSSQL
+   c、邮件服务器：Postfix、Sendmail
+   d、HTTP 服务器：Apache、Nginx、IIS、Tomcat、NodeJS
+</code></pre><h4 id="第三节-基础知识铺垫-网络相关概念"><a href="#第三节-基础知识铺垫-网络相关概念" class="headerlink" title="第三节 基础知识铺垫-网络相关概念"></a>第三节 基础知识铺垫-网络相关概念</h4><pre><code>1. 什么是IP地址，如何查看IP
+   所谓IP地址就是给每个连接在互联网上的主机分配的一个32位地址。
+   查看本机的IP： ipconfig 或者ipconfig -all
+   查看域名的IP： ping
+
+2. 域名
+   由于IP地址是基于数字，不方便记忆，于是便用域名来代替IP地址，
+   说百了，域名就是方便IP的的别名，替代品
+
+3. DNS以及查找的规则
+   记录了 IP 地址和域名的映射（对应）关系。
+   查找优先级 本机hosts文件、DNS服务器
+
+4. 端口
+   端口是计算机与外界通讯交流的出口，每个端口对应不同的服务。
+   说白了就是服务所对应的出口。
+
+5. 一个域名可以对应多个IP
+   但是一个IP只能对应一个域名
+</code></pre><h4 id="第四节-通信协议"><a href="#第四节-通信协议" class="headerlink" title="第四节 通信协议"></a>第四节 通信协议</h4><pre><code>1. 常见的通信协议
+   a、HTTP、HTTPS 超文本传输协议   ----  默认http是80端口,https是443端口
+   b、FTP 文件传输协议    ---- 默认是 21 端口
+   c、SMTP 简单邮件传输协议  ---- 默认是 25 端口
+
+2. HTTP协议
+   即超文本传输协议，网站是基于HTTP协议的。
+   HTTP协议是由从客户机到服务器的请求(Request)和从服务器到客户机的响应(Response)进行了约束和规范。
+   即HTTP协议主要由请求和响应构成。
+
+3. HTTPS协议
+   以安全为目标的HTTP通道，简单讲是HTTP的安全版。
+   即HTTP下加入SSL层，HTTPS的安全基础是SSL，因此加密的详细内容就需要SSL。
+   SSL即安全套接层，是为网络通信提供安全及数据完整性的一种安全协议。
+
+   详细了解：百度百科（https://baike.baidu.com/）
+
+4. C/S 和 B/S --- 网络结构模式
+
+   C/S --- 客户机和服务器模式 --- 例如QQ、迅雷
+   B/S --- 浏览器和服务器模式 --- 例如OA、网页版QQ、网页版263邮箱
+
+   但要注意：
+   B/S是基于特定通信协议(HTTP)的C/S架构，也就是说B/S包含在C/S中，是特殊的C/S架构。
+   B/S属于C/S，浏览器只是特殊的客户端，本质上开发浏览器，还是实现一个C/S系统。
+
+   详细了解：百度百科（https://baike.baidu.com/）
+</code></pre><h4 id="第五节-服务器环境wamp安装"><a href="#第五节-服务器环境wamp安装" class="headerlink" title="第五节 服务器环境wamp安装"></a>第五节 服务器环境wamp安装</h4><pre><code>如果wamp没有安装成功的，按照如下方式安装PHPStudy
+</code></pre><h4 id="第六节-配置访问权限与网站根路径"><a href="#第六节-配置访问权限与网站根路径" class="headerlink" title="第六节 配置访问权限与网站根路径"></a>第六节 配置访问权限与网站根路径</h4><p>配置访问权限</p>
+<pre><code>1. 安装位置 -- C:\wamp\bin\apache\Apache2.4.4\conf\httpd.conf
+2. 搜索Deny（268行） ，将 Deny 改成 Allow
+</code></pre><p>配置网站根路径</p>
+<pre><code>1. 240行和241行，改成自己根目录的位置
+</code></pre><h4 id="第七节-基础知识铺垫-虚拟主机配置"><a href="#第七节-基础知识铺垫-虚拟主机配置" class="headerlink" title="第七节 基础知识铺垫-虚拟主机配置"></a>第七节 基础知识铺垫-虚拟主机配置</h4><pre><code>1. 安装位置 -- C:\wamp\bin\apache\Apache2.4.4\conf\httpd.conf
+2. 搜索hosts（499行），去掉下一行(500行)的 “ # ”
+3. C:\wamp\bin\apache\Apache2.4.4\conf\extra\httpd-vhosts.conf
+4. 配置网站根目录
+5. 更改hosts，映射到本地
+</code></pre><h4 id="第八节-静态网站"><a href="#第八节-静态网站" class="headerlink" title="第八节 静态网站"></a>第八节 静态网站</h4><pre><code>1. 全部由HTML（标准通用标记语言的子集）代码格式页面组成的网站，所有的内容包含在网页文件中。
+   一般文件名均以htm、html、shtml等为后缀。
+
+2. 优点：
+    a、静态网页的内容相对稳定，因此容易被搜索引擎检索
+
+3. 缺点：
+    a、没有数据库的支持，在网站制作和维护方面工作量较大
+    b、静态网页的交互性较差，在功能方面有较大的限制 。
+</code></pre><h4 id="第九节-动态网站"><a href="#第九节-动态网站" class="headerlink" title="第九节 动态网站"></a>第九节 动态网站</h4><pre><code>1. 动态网站并不是指具有动画功能的网站，而是指网站内容可根据不同情况动态变更的网站，
+   一般情况下动态网站通过数据库进行架构。
+   一般动态网站体现在网页一般是以asp，jsp，php，aspx等结尾。
+
+2. 优点：
+        a、动态网页以数据库技术为基础，可以大大降低网站维护的工作量。
+     b、交互能力强，网页会根据用户的要求和选择而动态改变和响应。
+     c、维护方便，即无需手动操作，便会自动生成新的页面
+
+3. 缺点
+    a、动态网页中的“？”对搜索引擎检索存在一定的问题，
+       因此采用动态网页的网站在进行搜索引擎推广时需要做一定的技术处理才能适应搜索引擎的要求
+</code></pre><h4 id="第十节-php基础语法-—-初识php"><a href="#第十节-php基础语法-—-初识php" class="headerlink" title="第十节 php基础语法 —- 初识php"></a>第十节 php基础语法 —- 初识php</h4><pre><code>1. 所有的PHP相关的代码都要写在&lt;?php … ?&gt;里面。
+   echo 的作用就是像页面当中输入字符串
+
+2. PHP 文件的默认文件扩展名是 &quot;.php&quot;。
+
+3. PHP脚本在服务器上执行。AJAX也是，
+   所有咱们现在写代码都要放在Apache服务器下打开
+
+4. PHP 语句以分号结尾（;）。
+</code></pre><h4 id="第十一节-php基础语法-—-变量声明与字符串拼接"><a href="#第十一节-php基础语法-—-变量声明与字符串拼接" class="headerlink" title="第十一节 php基础语法 —- 变量声明与字符串拼接"></a>第十一节 php基础语法 —- 变量声明与字符串拼接</h4><pre><code>1. PHP中定义变量使用的 $ 操作符；
+
+2. PHP中的的字符拼接使用的“ . ”；
+
+3. PHP中的单引号把包含在其中的变量当做普通的字符串来处理
+   PHP中的双印号把包含在其中的变量当做变量解析成变量值
+
+4. 所有用户定义的函数、类和关键词（例如 if、else、echo 等等）都对大小写不敏感
+   【但是PHP所有变量对大小写敏感】
+
+5. PHP的变量声明以及变量名的规则
+   a、变量以 $ 符号开头，其后是变量的名称
+   b、变量名称必须以字母或下划线开头
+   c、变量名称不能以数字开头
+   d、变量名称只能包含字母数字字符和下划线（A-z、0-9 以及 _）
+   e、变量名称对大小写敏感（$y 与 $Y 是两个不同的变量）
+</code></pre><h4 id="第十二节-php基础语法-—-初始数组"><a href="#第十二节-php基础语法-—-初始数组" class="headerlink" title="第十二节 php基础语法 —- 初始数组"></a>第十二节 php基础语法 —- 初始数组</h4><pre><code>1. echo --- 输出简单数据类型，如字符串、数值
+2. print_r() --- 输出复杂数据类型，如数组
+3. var_dump() --- 输出详细信息，如对象、数组
+</code></pre><h4 id="第十三节-php基础语法-—-二维数组"><a href="#第十三节-php基础语法-—-二维数组" class="headerlink" title="第十三节 php基础语法 —- 二维数组"></a>第十三节 php基础语法 —- 二维数组</h4><pre><code>访问二位数组
+</code></pre><h4 id="第十四节-php基础语法-—-数据类型与数组遍历"><a href="#第十四节-php基础语法-—-数据类型与数组遍历" class="headerlink" title="第十四节 php基础语法 —- 数据类型与数组遍历"></a>第十四节 php基础语法 —- 数据类型与数组遍历</h4><pre><code>1. php的数据类型与JavaScript的数据类型是类似的，都是弱类型语言
+2. gettype() 内置函数，用来判断变量的类型
+3. count()是内置函数，用来计算数组的长度
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://changfenghu.github.io/2017/08/06/article-title/" data-id="cj60l5ox50000vsr0aw0vm0zg" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-first" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/changfeng.github.io/2017/08/06/first/" class="article-date">
+  <time datetime="2017-08-06T09:35:18.023Z" itemprop="datePublished">2017-08-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/changfeng.github.io/2017/08/06/first/">梧桐那么伤</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post.  此文是我年少时最喜欢的一位作家写的。</p>
+<h2 id="作者：乐小米"><a href="#作者：乐小米" class="headerlink" title="作者：乐小米"></a>作者：乐小米</h2><p><video src="video/后来-刘若英.mp3" autobuffer="" autoloop="" loop controls poster="/images/video.png" height="30px;" width="300px"></video><br>2005年5月5日<br>　　遗失的巴依老爷<br>　　以及<br>　　那些伤痛的碎片<br>　　2005年。5月5日。阳光。<br>　　巨大的摩天轮。<br>　　巨大的摩天轮里面坐着巨大硕大以及肥大的我，巨大壮大以及胖大的姚麦乐，另外，还有娇小玲珑晶莹剔透的黄小诗。<br>　　然后，摩天轮缓缓地上升着，黄小诗在麦乐身边抽泣得日月惨淡天地无光。麦乐默默地拉着她的手，不停地抽烟，纤细的手指里，细细的烟卷，就像眼前的黄小诗一样，让人心疼。<br>　　麦乐看了看黄小诗身上的累累伤痕，转过头来，对我说，他妈的！你说，黄小诗她后妈这样的毒妇，该不该送到生猪屠宰场里去！<br>　　我一边看摩天轮上升，一边摇头，说，现在猪肉越来越贵了，你还是让黄小诗她后妈和她爸生一窝小猪后，再一起送去屠宰吧！算为社会做贡献了。<br>　　我和麦乐这么一说，黄小诗哭得更厉害了，乌黑浓密的头发，高高束起的马尾，随着她的抽噎摇摆着。<br>　　她真的很不幸！自从一年前，父亲娶了后妻之后，她就过得跟一个凄苦的小怨妇似的，经常一身伤痕出现在我和麦乐眼前。<br>　　其实，原来我与麦乐属于比较瘦弱的那类小孩，但是，与被后妈虐待出来的黄小诗相比，我们只能用巨大来形容了。<br>　　我曾跟黄小诗说，你后妈可以开个魔鬼减肥班了。<br>　　结果，黄小诗就用她的小麻秆一样的胳膊捂着她冬瓜一样的大脑袋，抽泣不停。<br>　　麦乐说你比较没良心，好歹黄小诗也是和我们俩穿一条裤子长大的胡萝卜姐妹花，你怎么这点同情心都没有。<br>　　其实，我不是没有同情心。只是，被人欺负不是我一贯的做人原则。我的原则是，如果别人欺负到我头上来，我一定要打回他老家去！揭他的房顶，扒他的墙！<br>　　这种思想，麦乐在我多年的悉心熏陶之下，多少也是具有的。<br>
+        
+          <p class="article-more-link">
+            <a href="/changfeng.github.io/2017/08/06/first/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://changfenghu.github.io/2017/08/06/first/" data-id="cj60l5oxd0001vsr0v3orb35x" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/摩天轮/">摩天轮</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/遗失/">遗失</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/随笔/">随笔</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/changfeng.github.io/2017/08/06/hello-world/" class="article-date">
+  <time datetime="2017-08-06T09:35:18.023Z" itemprop="datePublished">2017-08-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/changfeng.github.io/2017/08/06/hello-world/">青城</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post.  此文是我年少时最喜欢的一位作家写的。</p>
+<h2 id="作者：乐小米"><a href="#作者：乐小米" class="headerlink" title="作者：乐小米"></a>作者：乐小米</h2><h3 id="有没有那么一段情谊，让你付之倾城"><a href="#有没有那么一段情谊，让你付之倾城" class="headerlink" title="有没有那么一段情谊，让你付之倾城"></a>有没有那么一段情谊，让你付之倾城</h3><p>1、青城之友谊篇<br>他们说，每个诞生在这个世界上的小孩，他或者她的第一声啼哭，不外乎有两种可能：要么，是循着多年前的某个婴孩的那声啼哭而来；要么，是在不久的将来，会有另外的婴孩的第一声啼哭，循着他或者她的这声啼哭而来。<br>于是，茫茫红尘，缘份注定她们或者他们会遇见。<br>从此，他们属于同一个世界、同一个圈子的小孩。然后，如此机缘凑巧，他们就变成了这个世界上，最亲密的伙伴、最铁血的朋友，拥有不是手足却胜似手足的感情，以及最坚不可破的友谊。<br>朋友，是那种在第一声啼哭下，就注定会走在一起的人。<br>这也是《青城》这个故事里面，最深最绵长的一条线，就仿佛是我们手中的那条横贯了掌心的生命线一样。<br>我始终信仰这种鉴定而有力的情谊。尽管，在尘嚣甚上的城市里，不断地有人被出卖，被伤害。就好像有的人，信仰佛祖，尽管佛祖高高在上，冷眼不见人生的悲欢。<br>信仰，有时与真正的现实无关。<br>《青城》里的胡 巴，我想，他应该是最信仰友情的那个。<br>这种信仰来自那个叫海南岛的男孩，他是胡 巴的老大，也是少年时代“友情四人帮”的老大。痞痞的样子，零乱的鸟窝头，凤眼狭长美颜无双，在故事里，他应该是仅次于江 寒和顾朗，被大家认可和喜欢的那个角色，因为他对待朋友，有着别样的义薄云天。<br>于是，海南岛对待友情的激烈，感染了自小怯弱的胡 巴。我知道，或者，胡 巴的小气、偶尔的畏缩，会让他是一个最初就不会被太多人喜欢、注定了的一个影子。<br>而正是这个影子，却在《青城》里，最让人动容。<br>因为海南岛的逃避，他最终变成了一次劫难的替罪羊；牢狱七年，最最花样的年华；给了他这个致命伤害的元凶，恰好是给了他这份信仰的人！而旁边的帮凶，却是他最最珍视过的女孩……<br>后来呢？<br><img src="/img/a.jpg" alt="相册"><br>
+        
+          <p class="article-more-link">
+            <a href="/changfeng.github.io/2017/08/06/hello-world/#more">Read More</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://changfenghu.github.io/2017/08/06/hello-world/" data-id="cj60l5oxh0002vsr0gggeekww" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/旧事/">旧事</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/随笔/">随笔</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/changfeng.github.io/tags/青城/">青城</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/changfeng.github.io/tags/摩天轮/">摩天轮</a></li><li class="tag-list-item"><a class="tag-list-link" href="/changfeng.github.io/tags/旧事/">旧事</a></li><li class="tag-list-item"><a class="tag-list-link" href="/changfeng.github.io/tags/遗失/">遗失</a></li><li class="tag-list-item"><a class="tag-list-link" href="/changfeng.github.io/tags/随笔/">随笔</a></li><li class="tag-list-item"><a class="tag-list-link" href="/changfeng.github.io/tags/青城/">青城</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/changfeng.github.io/tags/摩天轮/" style="font-size: 10px;">摩天轮</a> <a href="/changfeng.github.io/tags/旧事/" style="font-size: 10px;">旧事</a> <a href="/changfeng.github.io/tags/遗失/" style="font-size: 10px;">遗失</a> <a href="/changfeng.github.io/tags/随笔/" style="font-size: 20px;">随笔</a> <a href="/changfeng.github.io/tags/青城/" style="font-size: 10px;">青城</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/changfeng.github.io/archives/2017/08/">August 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/changfeng.github.io/2017/08/06/article-title/">我的博客</a>
+          </li>
+        
+          <li>
+            <a href="/changfeng.github.io/2017/08/06/first/">梧桐那么伤</a>
+          </li>
+        
+          <li>
+            <a href="/changfeng.github.io/2017/08/06/hello-world/">青城</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/changfeng.github.io/" class="mobile-nav-link">Home</a>
+  
+    <a href="/changfeng.github.io/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/changfeng.github.io/fancybox/jquery.fancybox.css">
+  <script src="/changfeng.github.io/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/changfeng.github.io/js/script.js"></script>
+
+  </div>
+</body>
+</html>
